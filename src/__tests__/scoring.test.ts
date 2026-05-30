@@ -15,7 +15,14 @@ describe("computeRankings", () => {
   });
 
   it("all scores are in 0–100 range", () => {
-    const dimensions = ["satisfaction", "performance", "activity", "collaboration", "efficiency", "composite"] as const;
+    const dimensions = [
+      "satisfaction",
+      "performance",
+      "activity",
+      "collaboration",
+      "efficiency",
+      "composite",
+    ] as const;
     for (const eng of rankings) {
       for (const dim of dimensions) {
         expect(eng.scores[dim], `${eng.login}.${dim}`).toBeGreaterThanOrEqual(0);
@@ -30,7 +37,9 @@ describe("computeRankings", () => {
   });
 
   it("top 5 logins and composite scores match snapshot", () => {
-    const top5 = rankings.slice(0, 5).map((e) => ({ login: e.login, composite: e.scores.composite }));
+    const top5 = rankings
+      .slice(0, 5)
+      .map((e) => ({ login: e.login, composite: e.scores.composite }));
     expect(top5).toMatchSnapshot();
   });
 

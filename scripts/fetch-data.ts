@@ -149,7 +149,7 @@ const main = async () => {
   );
   writeFileSync(outPath, JSON.stringify(output, null, 2));
   console.log(`\nDone. Wrote ${prDetails.length} PRs to ${outPath}`);
-}
+};
 
 main().catch((err) => {
   console.error(err);

@@ -37,7 +37,9 @@ describe("App – engineer list", () => {
   it(`"show next" button increments by ${EXPAND_NEXT_N_COUNT}`, () => {
     render(<App />);
     fireEvent.click(screen.getByRole("button", { name: /show next/i }));
-    expect(screen.getAllByText("PRs merged")).toHaveLength(DEFAULT_VISIBLE_COUNT + EXPAND_NEXT_N_COUNT);
+    expect(screen.getAllByText("PRs merged")).toHaveLength(
+      DEFAULT_VISIBLE_COUNT + EXPAND_NEXT_N_COUNT
+    );
   });
 
   it(`"show all" button reveals all ${totalEngineers} engineers`, () => {

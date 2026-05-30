@@ -20,7 +20,7 @@ Session logs exported to `session-logs/` (two files — conversation hit context
 
 Every naive approach to measuring engineering impact ends up measuring the wrong thing — commits, lines of code, and PRs merged all incentivize volume over value. The SPACE framework was specifically designed by researchers at Microsoft and GitHub to address this. It defines impact across five dimensions so that no single gaming-able proxy can dominate the score.
 
-I'm choosing to use the SPACE model partially out of niave lack of knowledge for the model space, I'm not sure the best analysis to do, or the best way to combine different analytical frameworks in the time permitted. But, this framework comes from Microsoft, and as an ex Microsoft employee, that makes me partial to this model.
+I'm choosing to use the SPACE model partially out of naive lack of knowledge for the model space, I'm not sure the best analysis to do, or the best way to combine different analytical frameworks in the time permitted. But, this framework comes from Microsoft, and as an ex Microsoft employee, that makes me partial to this model.
 
 | Dimension | What it captures | GitHub proxy used |
 |---|---|---|
