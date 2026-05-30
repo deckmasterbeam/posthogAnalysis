@@ -1,0 +1,1641 @@
+{
+  "fetchedAt": "2026-05-30T01:04:54.259Z",
+  "since": "2026-03-01T01:04:09.368Z",
+  "prDetails": [
+    {
+      "number": 60743,
+      "author": "Piccirello",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/8296030?v=4",
+      "title": "Cleanup .test directory from force merge test",
+      "mergedAt": "2026-05-29T21:30:31Z",
+      "createdAt": "2026-05-29T21:21:47Z",
+      "additions": 0,
+      "deletions": 1,
+      "changedFiles": 1,
+      "labels": [
+        "stamphog"
+      ],
+      "reviews": [],
+      "reviewCommentCount": 0,
+      "requestChangesCount": 0
+    },
+    {
+      "number": 60742,
+      "author": "Piccirello",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/8296030?v=4",
+      "title": "chore(ci): fix sync push auth shadowed by checkout credentials",
+      "mergedAt": "2026-05-29T21:25:39Z",
+      "createdAt": "2026-05-29T21:14:48Z",
+      "additions": 8,
+      "deletions": 6,
+      "changedFiles": 2,
+      "labels": [
+        "skip-inkeep-docs"
+      ],
+      "reviews": [
+        {
+          "reviewer": "feliperalmeida",
+          "state": "APPROVED",
+          "submittedAt": "2026-05-29T21:20:26Z"
+        }
+      ],
+      "reviewCommentCount": 0,
+      "requestChangesCount": 0
+    },
+    {
+      "number": 60727,
+      "author": "Piccirello",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/8296030?v=4",
+      "title": "Testing force merge bot",
+      "mergedAt": "2026-05-29T21:20:08Z",
+      "createdAt": "2026-05-29T19:56:42Z",
+      "additions": 1,
+      "deletions": 0,
+      "changedFiles": 1,
+      "labels": [],
+      "reviews": [],
+      "reviewCommentCount": 0,
+      "requestChangesCount": 0
+    },
+    {
+      "number": 60725,
+      "author": "joshsny",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/7135900?v=4",
+      "title": "fix(gateway): apply posthog property headers on openai routes",
+      "mergedAt": "2026-05-29T20:36:16Z",
+      "createdAt": "2026-05-29T19:45:15Z",
+      "additions": 84,
+      "deletions": 11,
+      "changedFiles": 2,
+      "labels": [],
+      "reviews": [
+        {
+          "reviewer": "brandonleung",
+          "state": "APPROVED",
+          "submittedAt": "2026-05-29T20:00:22Z"
+        }
+      ],
+      "reviewCommentCount": 2,
+      "requestChangesCount": 0
+    },
+    {
+      "number": 60723,
+      "author": "fercgomes",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/28491014?v=4",
+      "title": "feat(onboarding): add framework icons to wizard supports list",
+      "mergedAt": "2026-05-29T20:52:55Z",
+      "createdAt": "2026-05-29T19:34:23Z",
+      "additions": 44,
+      "deletions": 22,
+      "changedFiles": 1,
+      "labels": [],
+      "reviews": [
+        {
+          "reviewer": "rafaeelaudibert",
+          "state": "APPROVED",
+          "submittedAt": "2026-05-29T20:52:00Z"
+        }
+      ],
+      "reviewCommentCount": 2,
+      "requestChangesCount": 0
+    },
+    {
+      "number": 60718,
+      "author": "rnegron",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/4153103?v=4",
+      "title": "chore(storybook): minify prod build with esbuild",
+      "mergedAt": "2026-05-29T19:19:53Z",
+      "createdAt": "2026-05-29T19:00:39Z",
+      "additions": 2,
+      "deletions": 0,
+      "changedFiles": 1,
+      "labels": [
+        "stamphog"
+      ],
+      "reviews": [],
+      "reviewCommentCount": 0,
+      "requestChangesCount": 0
+    },
+    {
+      "number": 60715,
+      "author": "daniloc",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/213358?v=4",
+      "title": "refactor(agents): drive the runner on pi-agent-core's agent loop",
+      "mergedAt": "2026-05-29T19:53:34Z",
+      "createdAt": "2026-05-29T18:15:46Z",
+      "additions": 1733,
+      "deletions": 2542,
+      "changedFiles": 28,
+      "labels": [],
+      "reviews": [],
+      "reviewCommentCount": 3,
+      "requestChangesCount": 0
+    },
+    {
+      "number": 60714,
+      "author": "MattPua",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/3376526?v=4",
+      "title": "fix(alerts): prefetch related rows in alert list queryset",
+      "mergedAt": "2026-05-29T18:31:34Z",
+      "createdAt": "2026-05-29T18:02:22Z",
+      "additions": 5,
+      "deletions": 1,
+      "changedFiles": 1,
+      "labels": [
+        "stamphog"
+      ],
+      "reviews": [],
+      "reviewCommentCount": 0,
+      "requestChangesCount": 0
+    },
+    {
+      "number": 60712,
+      "author": "nickbest-ph",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/206742387?v=4",
+      "title": "fix(personhog): clamp person batch size at server limit of 250",
+      "mergedAt": "2026-05-29T20:53:16Z",
+      "createdAt": "2026-05-29T17:40:36Z",
+      "additions": 24,
+      "deletions": 47,
+      "changedFiles": 5,
+      "labels": [],
+      "reviews": [
+        {
+          "reviewer": "z0br0wn",
+          "state": "APPROVED",
+          "submittedAt": "2026-05-29T18:11:18Z"
+        }
+      ],
+      "reviewCommentCount": 2,
+      "requestChangesCount": 0
+    },
+    {
+      "number": 60711,
+      "author": "MattPua",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/3376526?v=4",
+      "title": "fix(dashboards): show add tile button in edit mode",
+      "mergedAt": "2026-05-29T17:59:38Z",
+      "createdAt": "2026-05-29T17:40:10Z",
+      "additions": 67,
+      "deletions": 56,
+      "changedFiles": 2,
+      "labels": [
+        "stamphog"
+      ],
+      "reviews": [],
+      "reviewCommentCount": 0,
+      "requestChangesCount": 0
+    },
+    {
+      "number": 60710,
+      "author": "sakce",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/49978945?v=4",
+      "title": "chore(data-warehouse): clearer activity log for schema enable/disable",
+      "mergedAt": "2026-05-29T18:13:15Z",
+      "createdAt": "2026-05-29T17:37:08Z",
+      "additions": 13,
+      "deletions": 0,
+      "changedFiles": 1,
+      "labels": [],
+      "reviews": [
+        {
+          "reviewer": "danielcarletti",
+          "state": "APPROVED",
+          "submittedAt": "2026-05-29T18:04:33Z"
+        }
+      ],
+      "reviewCommentCount": 0,
+      "requestChangesCount": 0
+    },
+    {
+      "number": 60707,
+      "author": "sampennington",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/56024559?v=4",
+      "title": "fix(insights): correct hog-charts bar hover shading and grouped click routing",
+      "mergedAt": "2026-05-29T17:06:28Z",
+      "createdAt": "2026-05-29T16:44:45Z",
+      "additions": 175,
+      "deletions": 27,
+      "changedFiles": 4,
+      "labels": [
+        "stamphog"
+      ],
+      "reviews": [],
+      "reviewCommentCount": 1,
+      "requestChangesCount": 0
+    },
+    {
+      "number": 60706,
+      "author": "turnipdabeets",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/11654201?v=4",
+      "title": "feat(usage-report): re-add per-sdk logs counters via logs_distributed",
+      "mergedAt": "2026-05-29T17:33:52Z",
+      "createdAt": "2026-05-29T16:41:06Z",
+      "additions": 331,
+      "deletions": 133,
+      "changedFiles": 5,
+      "labels": [
+        "skip-inkeep-docs"
+      ],
+      "reviews": [
+        {
+          "reviewer": "DanielVisca",
+          "state": "APPROVED",
+          "submittedAt": "2026-05-29T17:12:56Z"
+        }
+      ],
+      "reviewCommentCount": 4,
+      "requestChangesCount": 0
+    },
+    {
+      "number": 60705,
+      "author": "rnegron",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/4153103?v=4",
+      "title": "fix(devbox): don't pin region on coder update",
+      "mergedAt": "2026-05-29T17:03:51Z",
+      "createdAt": "2026-05-29T16:36:43Z",
+      "additions": 28,
+      "deletions": 45,
+      "changedFiles": 3,
+      "labels": [
+        "stamphog"
+      ],
+      "reviews": [],
+      "reviewCommentCount": 1,
+      "requestChangesCount": 0
+    },
+    {
+      "number": 60693,
+      "author": "webjunkie",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/59713?v=4",
+      "title": "fix(ci): exempt github noreply emails from the author-email nudge",
+      "mergedAt": "2026-05-29T16:45:49Z",
+      "createdAt": "2026-05-29T15:21:42Z",
+      "additions": 7,
+      "deletions": 0,
+      "changedFiles": 1,
+      "labels": [],
+      "reviews": [
+        {
+          "reviewer": "gantoine",
+          "state": "APPROVED",
+          "submittedAt": "2026-05-29T16:45:46Z"
+        }
+      ],
+      "reviewCommentCount": 2,
+      "requestChangesCount": 0
+    },
+    {
+      "number": 60684,
+      "author": "christiaan-ph",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/252863363?v=4",
+      "title": "fix(persons): suppress link for personless persons",
+      "mergedAt": "2026-05-29T17:29:52Z",
+      "createdAt": "2026-05-29T14:25:07Z",
+      "additions": 17,
+      "deletions": 7,
+      "changedFiles": 4,
+      "labels": [],
+      "reviews": [
+        {
+          "reviewer": "sampennington",
+          "state": "APPROVED",
+          "submittedAt": "2026-05-29T16:51:44Z"
+        }
+      ],
+      "reviewCommentCount": 0,
+      "requestChangesCount": 0
+    },
+    {
+      "number": 60681,
+      "author": "pauldambra",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/984817?v=4",
+      "title": "feat(mcp): support feature_flag_variant for tool gating",
+      "mergedAt": "2026-05-29T15:09:07Z",
+      "createdAt": "2026-05-29T14:12:45Z",
+      "additions": 208,
+      "deletions": 104,
+      "changedFiles": 8,
+      "labels": [
+        "stamphog"
+      ],
+      "reviews": [
+        {
+          "reviewer": "joshsny",
+          "state": "APPROVED",
+          "submittedAt": "2026-05-29T15:07:55Z"
+        }
+      ],
+      "reviewCommentCount": 13,
+      "requestChangesCount": 0
+    },
+    {
+      "number": 60680,
+      "author": "arthurdedeus",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/54866778?v=4",
+      "title": "refactor(customer-analytics): collapse accounts id/external_id into the name column tuple",
+      "mergedAt": "2026-05-29T21:20:30Z",
+      "createdAt": "2026-05-29T14:02:14Z",
+      "additions": 189,
+      "deletions": 110,
+      "changedFiles": 8,
+      "labels": [
+        "stamphog"
+      ],
+      "reviews": [],
+      "reviewCommentCount": 4,
+      "requestChangesCount": 0
+    },
+    {
+      "number": 60679,
+      "author": "HaynesPostHog",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/181385999?v=4",
+      "title": "fix(replay): guard totalFiltersCount against missing duration",
+      "mergedAt": "2026-05-29T14:22:54Z",
+      "createdAt": "2026-05-29T14:02:05Z",
+      "additions": 1,
+      "deletions": 1,
+      "changedFiles": 1,
+      "labels": [],
+      "reviews": [
+        {
+          "reviewer": "pauldambra",
+          "state": "APPROVED",
+          "submittedAt": "2026-05-29T14:05:10Z"
+        }
+      ],
+      "reviewCommentCount": 0,
+      "requestChangesCount": 0
+    },
+    {
+      "number": 60678,
+      "author": "jonmcwest",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/66999846?v=4",
+      "title": "fix(logs-ingestion): add retention days to usage metrics and update tests",
+      "mergedAt": "2026-05-29T14:15:18Z",
+      "createdAt": "2026-05-29T13:49:21Z",
+      "additions": 74,
+      "deletions": 10,
+      "changedFiles": 2,
+      "labels": [
+        "stamphog"
+      ],
+      "reviews": [],
+      "reviewCommentCount": 1,
+      "requestChangesCount": 0
+    },
+    {
+      "number": 60674,
+      "author": "MattPua",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/3376526?v=4",
+      "title": "feat(alerts): paginate alerts tab on the insights page",
+      "mergedAt": "2026-05-29T15:30:44Z",
+      "createdAt": "2026-05-29T13:43:03Z",
+      "additions": 68,
+      "deletions": 18,
+      "changedFiles": 5,
+      "labels": [],
+      "reviews": [
+        {
+          "reviewer": "vdekrijger",
+          "state": "APPROVED",
+          "submittedAt": "2026-05-29T15:15:43Z"
+        }
+      ],
+      "reviewCommentCount": 2,
+      "requestChangesCount": 0
+    },
+    {
+      "number": 60672,
+      "author": "jonmcwest",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/66999846?v=4",
+      "title": "feat(logs): mirror visible log rows as a window on the sparkline",
+      "mergedAt": "2026-05-29T15:05:37Z",
+      "createdAt": "2026-05-29T13:31:06Z",
+      "additions": 254,
+      "deletions": 40,
+      "changedFiles": 5,
+      "labels": [
+        "stamphog"
+      ],
+      "reviews": [],
+      "reviewCommentCount": 2,
+      "requestChangesCount": 0
+    },
+    {
+      "number": 60671,
+      "author": "sakce",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/49978945?v=4",
+      "title": "chore(hogql): connectionId and connections-list MCP betterment",
+      "mergedAt": "2026-05-29T14:29:45Z",
+      "createdAt": "2026-05-29T13:21:46Z",
+      "additions": 159,
+      "deletions": 37,
+      "changedFiles": 24,
+      "labels": [],
+      "reviews": [
+        {
+          "reviewer": "georgemunyoro",
+          "state": "APPROVED",
+          "submittedAt": "2026-05-29T13:52:33Z"
+        },
+        {
+          "reviewer": "georgemunyoro",
+          "state": "APPROVED",
+          "submittedAt": "2026-05-29T13:52:35Z"
+        },
+        {
+          "reviewer": "mariusandra",
+          "state": "APPROVED",
+          "submittedAt": "2026-05-29T13:52:55Z"
+        },
+        {
+          "reviewer": "mariusandra",
+          "state": "APPROVED",
+          "submittedAt": "2026-05-29T13:53:05Z"
+        },
+        {
+          "reviewer": "mariusandra",
+          "state": "APPROVED",
+          "submittedAt": "2026-05-29T13:53:06Z"
+        },
+        {
+          "reviewer": "lricoy",
+          "state": "APPROVED",
+          "submittedAt": "2026-05-29T14:04:13Z"
+        }
+      ],
+      "reviewCommentCount": 0,
+      "requestChangesCount": 0
+    },
+    {
+      "number": 60668,
+      "author": "arthurdedeus",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/54866778?v=4",
+      "title": "feat(customer-analytics): accounts column configuration",
+      "mergedAt": "2026-05-29T20:44:07Z",
+      "createdAt": "2026-05-29T12:58:08Z",
+      "additions": 1099,
+      "deletions": 84,
+      "changedFiles": 10,
+      "labels": [],
+      "reviews": [
+        {
+          "reviewer": "jabahamondes",
+          "state": "APPROVED",
+          "submittedAt": "2026-05-29T20:41:46Z"
+        }
+      ],
+      "reviewCommentCount": 7,
+      "requestChangesCount": 0
+    },
+    {
+      "number": 60666,
+      "author": "christiaan-ph",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/252863363?v=4",
+      "title": "fix(data-warehouse): only require prefix when a no-prefix source exists",
+      "mergedAt": "2026-05-29T14:47:52Z",
+      "createdAt": "2026-05-29T12:49:15Z",
+      "additions": 158,
+      "deletions": 10,
+      "changedFiles": 2,
+      "labels": [],
+      "reviews": [
+        {
+          "reviewer": "danielcarletti",
+          "state": "APPROVED",
+          "submittedAt": "2026-05-29T13:22:33Z"
+        },
+        {
+          "reviewer": "Gilbert09",
+          "state": "APPROVED",
+          "submittedAt": "2026-05-29T14:00:26Z"
+        }
+      ],
+      "reviewCommentCount": 0,
+      "requestChangesCount": 0
+    },
+    {
+      "number": 60665,
+      "author": "andre347",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/22317522?v=4",
+      "title": "chore(billing): rebrand platform add-ons to packages in BillingHero",
+      "mergedAt": "2026-05-29T21:06:47Z",
+      "createdAt": "2026-05-29T12:48:09Z",
+      "additions": 6,
+      "deletions": 6,
+      "changedFiles": 1,
+      "labels": [],
+      "reviews": [
+        {
+          "reviewer": "rafaeelaudibert",
+          "state": "APPROVED",
+          "submittedAt": "2026-05-29T21:06:39Z"
+        }
+      ],
+      "reviewCommentCount": 0,
+      "requestChangesCount": 0
+    },
+    {
+      "number": 60662,
+      "author": "sakce",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/49978945?v=4",
+      "title": "fix(sources): postgres multi-schema doesn't toggle should_sync on discovery",
+      "mergedAt": "2026-05-29T14:21:48Z",
+      "createdAt": "2026-05-29T12:26:35Z",
+      "additions": 491,
+      "deletions": 22,
+      "changedFiles": 6,
+      "labels": [],
+      "reviews": [
+        {
+          "reviewer": "danielcarletti",
+          "state": "COMMENTED",
+          "submittedAt": "2026-05-29T13:33:17Z"
+        },
+        {
+          "reviewer": "danielcarletti",
+          "state": "APPROVED",
+          "submittedAt": "2026-05-29T13:52:38Z"
+        }
+      ],
+      "reviewCommentCount": 3,
+      "requestChangesCount": 0
+    },
+    {
+      "number": 60660,
+      "author": "VojtechBartos",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/1526646?v=4",
+      "title": "feat(llm-gateway): emit $ai_input_cost_usd and $ai_output_cost_usd",
+      "mergedAt": "2026-05-29T12:37:55Z",
+      "createdAt": "2026-05-29T11:53:03Z",
+      "additions": 99,
+      "deletions": 0,
+      "changedFiles": 2,
+      "labels": [],
+      "reviews": [
+        {
+          "reviewer": "joshsny",
+          "state": "APPROVED",
+          "submittedAt": "2026-05-29T12:08:55Z"
+        }
+      ],
+      "reviewCommentCount": 1,
+      "requestChangesCount": 0
+    },
+    {
+      "number": 60659,
+      "author": "VojtechBartos",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/1526646?v=4",
+      "title": "feat(slack_app): gate task links on PostHog Code access",
+      "mergedAt": "2026-05-29T12:20:48Z",
+      "createdAt": "2026-05-29T11:40:24Z",
+      "additions": 411,
+      "deletions": 96,
+      "changedFiles": 4,
+      "labels": [],
+      "reviews": [
+        {
+          "reviewer": "joshsny",
+          "state": "APPROVED",
+          "submittedAt": "2026-05-29T12:20:29Z"
+        }
+      ],
+      "reviewCommentCount": 3,
+      "requestChangesCount": 0
+    },
+    {
+      "number": 60657,
+      "author": "mp-hog",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/252936290?v=4",
+      "title": "fix(llma): Small ux improvements on sessions page",
+      "mergedAt": "2026-05-29T12:08:13Z",
+      "createdAt": "2026-05-29T11:37:54Z",
+      "additions": 14,
+      "deletions": 10,
+      "changedFiles": 2,
+      "labels": [
+        "stamphog",
+        "skip-inkeep-docs"
+      ],
+      "reviews": [],
+      "reviewCommentCount": 1,
+      "requestChangesCount": 0
+    },
+    {
+      "number": 60656,
+      "author": "joshsny",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/7135900?v=4",
+      "title": "fix(signals): always allow local domains",
+      "mergedAt": "2026-05-29T11:57:25Z",
+      "createdAt": "2026-05-29T11:36:58Z",
+      "additions": 50,
+      "deletions": 16,
+      "changedFiles": 2,
+      "labels": [],
+      "reviews": [
+        {
+          "reviewer": "andrewm4894",
+          "state": "APPROVED",
+          "submittedAt": "2026-05-29T11:44:02Z"
+        }
+      ],
+      "reviewCommentCount": 1,
+      "requestChangesCount": 0
+    },
+    {
+      "number": 60655,
+      "author": "jonmcwest",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/66999846?v=4",
+      "title": "feat(traces): switch traces billing metrics to traces_mb_ingested",
+      "mergedAt": "2026-05-29T14:27:44Z",
+      "createdAt": "2026-05-29T11:36:55Z",
+      "additions": 81,
+      "deletions": 5,
+      "changedFiles": 4,
+      "labels": [
+        "priority-review"
+      ],
+      "reviews": [
+        {
+          "reviewer": "sakce",
+          "state": "APPROVED",
+          "submittedAt": "2026-05-29T14:27:12Z"
+        }
+      ],
+      "reviewCommentCount": 1,
+      "requestChangesCount": 0
+    },
+    {
+      "number": 60649,
+      "author": "joshsny",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/7135900?v=4",
+      "title": "fix(signals): default inbox deep link to posthog-code scheme",
+      "mergedAt": "2026-05-29T11:16:15Z",
+      "createdAt": "2026-05-29T10:56:10Z",
+      "additions": 4,
+      "deletions": 4,
+      "changedFiles": 2,
+      "labels": [],
+      "reviews": [
+        {
+          "reviewer": "sortafreel",
+          "state": "APPROVED",
+          "submittedAt": "2026-05-29T10:59:43Z"
+        }
+      ],
+      "reviewCommentCount": 0,
+      "requestChangesCount": 0
+    },
+    {
+      "number": 60648,
+      "author": "webjunkie",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/59713?v=4",
+      "title": "chore(ci): refactor reviewer assignment with footprint-based filtering",
+      "mergedAt": "2026-05-29T14:24:03Z",
+      "createdAt": "2026-05-29T10:53:01Z",
+      "additions": 513,
+      "deletions": 60,
+      "changedFiles": 2,
+      "labels": [],
+      "reviews": [
+        {
+          "reviewer": "feliperalmeida",
+          "state": "APPROVED",
+          "submittedAt": "2026-05-29T14:23:38Z"
+        }
+      ],
+      "reviewCommentCount": 9,
+      "requestChangesCount": 0
+    },
+    {
+      "number": 60647,
+      "author": "meikelmosby",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/8418536?v=4",
+      "title": "chore(workflows): revert distinct_id description on update person properties",
+      "mergedAt": "2026-05-29T11:28:16Z",
+      "createdAt": "2026-05-29T10:52:42Z",
+      "additions": 1,
+      "deletions": 2,
+      "changedFiles": 1,
+      "labels": [],
+      "reviews": [
+        {
+          "reviewer": "dmarchuk",
+          "state": "APPROVED",
+          "submittedAt": "2026-05-29T10:53:50Z"
+        }
+      ],
+      "reviewCommentCount": 0,
+      "requestChangesCount": 0
+    },
+    {
+      "number": 60645,
+      "author": "dmarchuk",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/8395106?v=4",
+      "title": "fix(workflows): mark batch schedule section as optional",
+      "mergedAt": "2026-05-29T14:17:50Z",
+      "createdAt": "2026-05-29T10:48:55Z",
+      "additions": 1,
+      "deletions": 1,
+      "changedFiles": 1,
+      "labels": [
+        "stamphog"
+      ],
+      "reviews": [],
+      "reviewCommentCount": 0,
+      "requestChangesCount": 0
+    },
+    {
+      "number": 60644,
+      "author": "sortafreel",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/354488?v=4",
+      "title": "feat(code): Runbook on e2e local agentic tasks in Slack",
+      "mergedAt": "2026-05-29T15:02:25Z",
+      "createdAt": "2026-05-29T10:33:52Z",
+      "additions": 256,
+      "deletions": 0,
+      "changedFiles": 2,
+      "labels": [],
+      "reviews": [
+        {
+          "reviewer": "tatoalo",
+          "state": "APPROVED",
+          "submittedAt": "2026-05-29T13:22:15Z"
+        },
+        {
+          "reviewer": "andrewm4894",
+          "state": "APPROVED",
+          "submittedAt": "2026-05-29T13:23:48Z"
+        }
+      ],
+      "reviewCommentCount": 1,
+      "requestChangesCount": 0
+    },
+    {
+      "number": 60643,
+      "author": "robbie-c",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/2056078?v=4",
+      "title": "fix(ci): make hogql-parser publish robust to PyPI CDN cache lag",
+      "mergedAt": "2026-05-29T11:27:16Z",
+      "createdAt": "2026-05-29T10:32:37Z",
+      "additions": 44,
+      "deletions": 20,
+      "changedFiles": 2,
+      "labels": [],
+      "reviews": [
+        {
+          "reviewer": "webjunkie",
+          "state": "APPROVED",
+          "submittedAt": "2026-05-29T11:19:05Z"
+        }
+      ],
+      "reviewCommentCount": 1,
+      "requestChangesCount": 0
+    },
+    {
+      "number": 60642,
+      "author": "estefaniarabadan",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/10627591?v=4",
+      "title": "fix(ws): stop v3 sync jobs getting stuck in running",
+      "mergedAt": "2026-05-29T13:24:24Z",
+      "createdAt": "2026-05-29T10:31:55Z",
+      "additions": 116,
+      "deletions": 27,
+      "changedFiles": 6,
+      "labels": [
+        "skip-inkeep-docs"
+      ],
+      "reviews": [
+        {
+          "reviewer": "Gilbert09",
+          "state": "APPROVED",
+          "submittedAt": "2026-05-29T11:13:25Z"
+        },
+        {
+          "reviewer": "danielcarletti",
+          "state": "COMMENTED",
+          "submittedAt": "2026-05-29T12:37:43Z"
+        },
+        {
+          "reviewer": "danielcarletti",
+          "state": "APPROVED",
+          "submittedAt": "2026-05-29T12:38:40Z"
+        }
+      ],
+      "reviewCommentCount": 4,
+      "requestChangesCount": 0
+    },
+    {
+      "number": 60641,
+      "author": "webjunkie",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/59713?v=4",
+      "title": "chore: clarify PR template and agent guidelines",
+      "mergedAt": "2026-05-29T10:54:32Z",
+      "createdAt": "2026-05-29T10:25:25Z",
+      "additions": 2,
+      "deletions": 2,
+      "changedFiles": 2,
+      "labels": [
+        "stamphog"
+      ],
+      "reviews": [],
+      "reviewCommentCount": 2,
+      "requestChangesCount": 0
+    },
+    {
+      "number": 60639,
+      "author": "webjunkie",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/59713?v=4",
+      "title": "fix(ci): unblock test-timing auto-commit and de-tax durations",
+      "mergedAt": "2026-05-29T14:34:52Z",
+      "createdAt": "2026-05-29T10:10:34Z",
+      "additions": 31191,
+      "deletions": 28489,
+      "changedFiles": 5,
+      "labels": [],
+      "reviews": [
+        {
+          "reviewer": "gantoine",
+          "state": "APPROVED",
+          "submittedAt": "2026-05-29T13:20:39Z"
+        }
+      ],
+      "reviewCommentCount": 3,
+      "requestChangesCount": 0
+    },
+    {
+      "number": 60636,
+      "author": "sakce",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/49978945?v=4",
+      "title": "fix(api): validate test_account_filters on ProjectSerializer too",
+      "mergedAt": "2026-05-29T10:21:51Z",
+      "createdAt": "2026-05-29T10:02:04Z",
+      "additions": 4,
+      "deletions": 0,
+      "changedFiles": 1,
+      "labels": [
+        "stamphog"
+      ],
+      "reviews": [],
+      "reviewCommentCount": 0,
+      "requestChangesCount": 0
+    },
+    {
+      "number": 60634,
+      "author": "richardsolomou",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/2622273?v=4",
+      "title": "fix(llm-gateway): refresh provider sets when model_cost reloads",
+      "mergedAt": "2026-05-29T10:26:31Z",
+      "createdAt": "2026-05-29T09:49:30Z",
+      "additions": 67,
+      "deletions": 4,
+      "changedFiles": 3,
+      "labels": [],
+      "reviews": [
+        {
+          "reviewer": "k11kirky",
+          "state": "APPROVED",
+          "submittedAt": "2026-05-29T09:51:49Z"
+        }
+      ],
+      "reviewCommentCount": 2,
+      "requestChangesCount": 0
+    },
+    {
+      "number": 60632,
+      "author": "andrewm4894",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/2178292?v=4",
+      "title": "fix(llma): use toString zero-UUID guard in generation sampling",
+      "mergedAt": "2026-05-29T10:40:55Z",
+      "createdAt": "2026-05-29T09:47:50Z",
+      "additions": 37,
+      "deletions": 5,
+      "changedFiles": 2,
+      "labels": [],
+      "reviews": [
+        {
+          "reviewer": "carlos-marchal-ph",
+          "state": "APPROVED",
+          "submittedAt": "2026-05-29T10:03:00Z"
+        }
+      ],
+      "reviewCommentCount": 0,
+      "requestChangesCount": 0
+    },
+    {
+      "number": 60631,
+      "author": "k11kirky",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/4571455?v=4",
+      "title": "fix: normalize model names, fix claude 4.8",
+      "mergedAt": "2026-05-29T10:09:06Z",
+      "createdAt": "2026-05-29T09:45:00Z",
+      "additions": 58,
+      "deletions": 15,
+      "changedFiles": 4,
+      "labels": [],
+      "reviews": [
+        {
+          "reviewer": "joshsny",
+          "state": "APPROVED",
+          "submittedAt": "2026-05-29T09:51:54Z"
+        },
+        {
+          "reviewer": "richardsolomou",
+          "state": "APPROVED",
+          "submittedAt": "2026-05-29T09:52:43Z"
+        }
+      ],
+      "reviewCommentCount": 0,
+      "requestChangesCount": 0
+    },
+    {
+      "number": 60629,
+      "author": "webjunkie",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/59713?v=4",
+      "title": "chore: clarify inline import guidance for heavy deps (PLC0415)",
+      "mergedAt": "2026-05-29T10:27:02Z",
+      "createdAt": "2026-05-29T09:33:48Z",
+      "additions": 1,
+      "deletions": 1,
+      "changedFiles": 1,
+      "labels": [
+        "stamphog"
+      ],
+      "reviews": [],
+      "reviewCommentCount": 0,
+      "requestChangesCount": 0
+    },
+    {
+      "number": 60626,
+      "author": "tomasfarias",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/18740659?v=4",
+      "title": "fix: Pass include/exclude events to batch export",
+      "mergedAt": "2026-05-29T09:32:52Z",
+      "createdAt": "2026-05-29T09:13:25Z",
+      "additions": 6,
+      "deletions": 0,
+      "changedFiles": 2,
+      "labels": [
+        "stamphog"
+      ],
+      "reviews": [],
+      "reviewCommentCount": 0,
+      "requestChangesCount": 0
+    },
+    {
+      "number": 60622,
+      "author": "webjunkie",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/59713?v=4",
+      "title": "chore(devex): wire orphaned product tests + lint guard",
+      "mergedAt": "2026-05-29T15:06:14Z",
+      "createdAt": "2026-05-29T08:56:54Z",
+      "additions": 3168,
+      "deletions": 14,
+      "changedFiles": 17,
+      "labels": [
+        "skip-migration-service-check"
+      ],
+      "reviews": [
+        {
+          "reviewer": "gantoine",
+          "state": "APPROVED",
+          "submittedAt": "2026-05-29T13:22:44Z"
+        }
+      ],
+      "reviewCommentCount": 3,
+      "requestChangesCount": 0
+    },
+    {
+      "number": 60621,
+      "author": "andehen",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/754494?v=4",
+      "title": "fix(insights): show formula input when toggling formula mode on",
+      "mergedAt": "2026-05-29T10:59:01Z",
+      "createdAt": "2026-05-29T08:53:53Z",
+      "additions": 5,
+      "deletions": 5,
+      "changedFiles": 2,
+      "labels": [
+        "stamphog"
+      ],
+      "reviews": [
+        {
+          "reviewer": "sampennington",
+          "state": "APPROVED",
+          "submittedAt": "2026-05-29T10:58:34Z"
+        }
+      ],
+      "reviewCommentCount": 0,
+      "requestChangesCount": 0
+    },
+    {
+      "number": 60619,
+      "author": "meikelmosby",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/8418536?v=4",
+      "title": "fix(workflows): backfill event.distinct_id at cyclotron worker for batch invocations",
+      "mergedAt": "2026-05-29T10:25:17Z",
+      "createdAt": "2026-05-29T08:47:38Z",
+      "additions": 428,
+      "deletions": 5,
+      "changedFiles": 17,
+      "labels": [],
+      "reviews": [
+        {
+          "reviewer": "jose-sequeira",
+          "state": "APPROVED",
+          "submittedAt": "2026-05-29T09:40:47Z"
+        },
+        {
+          "reviewer": "dmarchuk",
+          "state": "APPROVED",
+          "submittedAt": "2026-05-29T10:21:27Z"
+        }
+      ],
+      "reviewCommentCount": 1,
+      "requestChangesCount": 0
+    },
+    {
+      "number": 60616,
+      "author": "jurajmajerik",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/22996112?v=4",
+      "title": "fix(experiments): include fingerprint in saved-metric cache key",
+      "mergedAt": "2026-05-29T08:52:28Z",
+      "createdAt": "2026-05-29T08:28:39Z",
+      "additions": 22,
+      "deletions": 18,
+      "changedFiles": 2,
+      "labels": [],
+      "reviews": [
+        {
+          "reviewer": "andehen",
+          "state": "APPROVED",
+          "submittedAt": "2026-05-29T08:34:34Z"
+        }
+      ],
+      "reviewCommentCount": 0,
+      "requestChangesCount": 0
+    },
+    {
+      "number": 60615,
+      "author": "sampennington",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/56024559?v=4",
+      "title": "chore(insights): move stickiness charts out of trends folder",
+      "mergedAt": "2026-05-29T08:53:21Z",
+      "createdAt": "2026-05-29T08:15:11Z",
+      "additions": 24,
+      "deletions": 12,
+      "changedFiles": 13,
+      "labels": [
+        "stamphog"
+      ],
+      "reviews": [],
+      "reviewCommentCount": 0,
+      "requestChangesCount": 0
+    },
+    {
+      "number": 60613,
+      "author": "webjunkie",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/59713?v=4",
+      "title": "chore(ci): add nudge for org members using non-PostHog git email",
+      "mergedAt": "2026-05-29T14:40:40Z",
+      "createdAt": "2026-05-29T07:45:21Z",
+      "additions": 134,
+      "deletions": 0,
+      "changedFiles": 1,
+      "labels": [],
+      "reviews": [
+        {
+          "reviewer": "gantoine",
+          "state": "APPROVED",
+          "submittedAt": "2026-05-29T11:31:43Z"
+        }
+      ],
+      "reviewCommentCount": 4,
+      "requestChangesCount": 0
+    },
+    {
+      "number": 60611,
+      "author": "pawel-cebula",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/28671716?v=4",
+      "title": "fix(usage-report): revert per-sdk logs counters",
+      "mergedAt": "2026-05-29T08:09:01Z",
+      "createdAt": "2026-05-29T07:26:45Z",
+      "additions": 133,
+      "deletions": 329,
+      "changedFiles": 5,
+      "labels": [],
+      "reviews": [
+        {
+          "reviewer": "abhischekt",
+          "state": "APPROVED",
+          "submittedAt": "2026-05-29T07:28:58Z"
+        },
+        {
+          "reviewer": "abhischekt",
+          "state": "APPROVED",
+          "submittedAt": "2026-05-29T07:31:58Z"
+        }
+      ],
+      "reviewCommentCount": 0,
+      "requestChangesCount": 0
+    },
+    {
+      "number": 60607,
+      "author": "webjunkie",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/59713?v=4",
+      "title": "chore(ci): allow manual dispatch and raise timeout for stale workflow",
+      "mergedAt": "2026-05-29T14:24:52Z",
+      "createdAt": "2026-05-29T07:05:42Z",
+      "additions": 2,
+      "deletions": 1,
+      "changedFiles": 1,
+      "labels": [
+        "priority-review"
+      ],
+      "reviews": [
+        {
+          "reviewer": "gantoine",
+          "state": "APPROVED",
+          "submittedAt": "2026-05-29T13:15:09Z"
+        }
+      ],
+      "reviewCommentCount": 0,
+      "requestChangesCount": 0
+    },
+    {
+      "number": 60606,
+      "author": "andehen",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/754494?v=4",
+      "title": "chore(experiments): remove dead experiment feature flag constants",
+      "mergedAt": "2026-05-29T11:26:39Z",
+      "createdAt": "2026-05-29T07:05:41Z",
+      "additions": 0,
+      "deletions": 4,
+      "changedFiles": 1,
+      "labels": [
+        "stamphog"
+      ],
+      "reviews": [
+        {
+          "reviewer": "jurajmajerik",
+          "state": "APPROVED",
+          "submittedAt": "2026-05-29T07:53:56Z"
+        }
+      ],
+      "reviewCommentCount": 0,
+      "requestChangesCount": 0
+    },
+    {
+      "number": 60595,
+      "author": "andyzzhao",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/34008309?v=4",
+      "title": "feat(property-vals): cap top-K values per key in merger",
+      "mergedAt": "2026-05-29T16:03:15Z",
+      "createdAt": "2026-05-29T04:30:02Z",
+      "additions": 110,
+      "deletions": 4,
+      "changedFiles": 4,
+      "labels": [
+        "stamphog"
+      ],
+      "reviews": [],
+      "reviewCommentCount": 1,
+      "requestChangesCount": 0
+    },
+    {
+      "number": 60589,
+      "author": "andyzzhao",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/34008309?v=4",
+      "title": "fix(phai): support SQL insights when adding to a dashboard",
+      "mergedAt": "2026-05-29T13:08:50Z",
+      "createdAt": "2026-05-29T02:43:19Z",
+      "additions": 32,
+      "deletions": 2,
+      "changedFiles": 2,
+      "labels": [],
+      "reviews": [
+        {
+          "reviewer": "vdekrijger",
+          "state": "APPROVED",
+          "submittedAt": "2026-05-29T07:28:55Z"
+        }
+      ],
+      "reviewCommentCount": 0,
+      "requestChangesCount": 0
+    },
+    {
+      "number": 60588,
+      "author": "nickbest-ph",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/206742387?v=4",
+      "title": "chore(personhog): add latency decomposition metrics",
+      "mergedAt": "2026-05-29T17:34:08Z",
+      "createdAt": "2026-05-29T02:21:26Z",
+      "additions": 212,
+      "deletions": 41,
+      "changedFiles": 6,
+      "labels": [],
+      "reviews": [
+        {
+          "reviewer": "eli-r-ph",
+          "state": "COMMENTED",
+          "submittedAt": "2026-05-29T16:25:20Z"
+        },
+        {
+          "reviewer": "eli-r-ph",
+          "state": "APPROVED",
+          "submittedAt": "2026-05-29T16:25:29Z"
+        }
+      ],
+      "reviewCommentCount": 6,
+      "requestChangesCount": 0
+    },
+    {
+      "number": 60585,
+      "author": "jabahamondes",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/205275836?v=4",
+      "title": "fix(marketing-analytics): fix conversion goal precompute materialization",
+      "mergedAt": "2026-05-29T21:02:48Z",
+      "createdAt": "2026-05-29T01:45:30Z",
+      "additions": 94,
+      "deletions": 90,
+      "changedFiles": 4,
+      "labels": [],
+      "reviews": [
+        {
+          "reviewer": "arthurdedeus",
+          "state": "APPROVED",
+          "submittedAt": "2026-05-29T20:37:04Z"
+        }
+      ],
+      "reviewCommentCount": 1,
+      "requestChangesCount": 0
+    },
+    {
+      "number": 60583,
+      "author": "Piccirello",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/8296030?v=4",
+      "title": "chore(ci): make foss/private sync atomic and faster",
+      "mergedAt": "2026-05-29T20:14:31Z",
+      "createdAt": "2026-05-29T00:23:42Z",
+      "additions": 53,
+      "deletions": 36,
+      "changedFiles": 2,
+      "labels": [],
+      "reviews": [
+        {
+          "reviewer": "webjunkie",
+          "state": "APPROVED",
+          "submittedAt": "2026-05-29T08:04:07Z"
+        }
+      ],
+      "reviewCommentCount": 2,
+      "requestChangesCount": 0
+    },
+    {
+      "number": 60580,
+      "author": "andyzzhao",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/34008309?v=4",
+      "title": "feat(property-vals): add per-tuple count distribution metric at flush",
+      "mergedAt": "2026-05-29T00:05:43Z",
+      "createdAt": "2026-05-28T23:18:28Z",
+      "additions": 5,
+      "deletions": 0,
+      "changedFiles": 2,
+      "labels": [
+        "stamphog"
+      ],
+      "reviews": [],
+      "reviewCommentCount": 0,
+      "requestChangesCount": 0
+    },
+    {
+      "number": 60578,
+      "author": "Piccirello",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/8296030?v=4",
+      "title": "chore(ci): commit foss-sync changes via GitHub API",
+      "mergedAt": "2026-05-28T23:25:42Z",
+      "createdAt": "2026-05-28T22:54:12Z",
+      "additions": 13,
+      "deletions": 5,
+      "changedFiles": 1,
+      "labels": [
+        "priority-review"
+      ],
+      "reviews": [
+        {
+          "reviewer": "feliperalmeida",
+          "state": "APPROVED",
+          "submittedAt": "2026-05-28T23:25:39Z"
+        }
+      ],
+      "reviewCommentCount": 0,
+      "requestChangesCount": 0
+    },
+    {
+      "number": 60576,
+      "author": "haacked",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/19977?v=4",
+      "title": "chore: Bump flags-project-board workflow pin to latest",
+      "mergedAt": "2026-05-29T19:24:00Z",
+      "createdAt": "2026-05-28T22:52:31Z",
+      "additions": 1,
+      "deletions": 1,
+      "changedFiles": 1,
+      "labels": [],
+      "reviews": [
+        {
+          "reviewer": "dustinbyrne",
+          "state": "APPROVED",
+          "submittedAt": "2026-05-28T23:11:10Z"
+        },
+        {
+          "reviewer": "gantoine",
+          "state": "APPROVED",
+          "submittedAt": "2026-05-29T11:47:14Z"
+        }
+      ],
+      "reviewCommentCount": 0,
+      "requestChangesCount": 0
+    },
+    {
+      "number": 60575,
+      "author": "Piccirello",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/8296030?v=4",
+      "title": "chore: configure dependency minimum release age / cooldown",
+      "mergedAt": "2026-05-29T08:03:17Z",
+      "createdAt": "2026-05-28T22:40:40Z",
+      "additions": 7,
+      "deletions": 1,
+      "changedFiles": 3,
+      "labels": [],
+      "reviews": [
+        {
+          "reviewer": "webjunkie",
+          "state": "APPROVED",
+          "submittedAt": "2026-05-29T08:03:14Z"
+        }
+      ],
+      "reviewCommentCount": 0,
+      "requestChangesCount": 0
+    },
+    {
+      "number": 60573,
+      "author": "richardsolomou",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/2622273?v=4",
+      "title": "chore(onboarding): standardize env var on POSTHOG_PROJECT_TOKEN",
+      "mergedAt": "2026-05-29T13:43:06Z",
+      "createdAt": "2026-05-28T22:30:23Z",
+      "additions": 12,
+      "deletions": 10,
+      "changedFiles": 5,
+      "labels": [],
+      "reviews": [
+        {
+          "reviewer": "Radu-Raicea",
+          "state": "APPROVED",
+          "submittedAt": "2026-05-29T13:38:14Z"
+        }
+      ],
+      "reviewCommentCount": 0,
+      "requestChangesCount": 0
+    },
+    {
+      "number": 60570,
+      "author": "pauldambra",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/984817?v=4",
+      "title": "chore(taxonomic-filter): three pre-existing cleanups",
+      "mergedAt": "2026-05-29T08:16:36Z",
+      "createdAt": "2026-05-28T22:13:04Z",
+      "additions": 48,
+      "deletions": 79,
+      "changedFiles": 3,
+      "labels": [
+        "stamphog"
+      ],
+      "reviews": [],
+      "reviewCommentCount": 6,
+      "requestChangesCount": 0
+    },
+    {
+      "number": 60568,
+      "author": "a-lider",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/221966567?v=4",
+      "title": "feat(auth): add passkey-2fa toggle to user admin",
+      "mergedAt": "2026-05-29T13:43:42Z",
+      "createdAt": "2026-05-28T22:02:08Z",
+      "additions": 18,
+      "deletions": 1,
+      "changedFiles": 2,
+      "labels": [],
+      "reviews": [
+        {
+          "reviewer": "ReeceJones",
+          "state": "APPROVED",
+          "submittedAt": "2026-05-29T13:43:39Z"
+        }
+      ],
+      "reviewCommentCount": 1,
+      "requestChangesCount": 0
+    },
+    {
+      "number": 60567,
+      "author": "andyzzhao",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/34008309?v=4",
+      "title": "feat(property-vals): label worker metrics by worker",
+      "mergedAt": "2026-05-28T23:12:36Z",
+      "createdAt": "2026-05-28T21:59:56Z",
+      "additions": 81,
+      "deletions": 18,
+      "changedFiles": 2,
+      "labels": [
+        "stamphog"
+      ],
+      "reviews": [],
+      "reviewCommentCount": 0,
+      "requestChangesCount": 0
+    },
+    {
+      "number": 60566,
+      "author": "rafaeelaudibert",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/32079912?v=4",
+      "title": "fix(search): validate cmd+k shift+enter href before opening in new tab",
+      "mergedAt": "2026-05-29T20:25:49Z",
+      "createdAt": "2026-05-28T21:51:01Z",
+      "additions": 27,
+      "deletions": 3,
+      "changedFiles": 3,
+      "labels": [
+        "stamphog"
+      ],
+      "reviews": [
+        {
+          "reviewer": "adamleithp",
+          "state": "APPROVED",
+          "submittedAt": "2026-05-28T21:51:44Z"
+        }
+      ],
+      "reviewCommentCount": 1,
+      "requestChangesCount": 0
+    },
+    {
+      "number": 60553,
+      "author": "ReeceJones",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/21371637?v=4",
+      "title": "chore: hide invite link from members",
+      "mergedAt": "2026-05-28T22:41:30Z",
+      "createdAt": "2026-05-28T21:15:00Z",
+      "additions": 105,
+      "deletions": 2,
+      "changedFiles": 3,
+      "labels": [],
+      "reviews": [
+        {
+          "reviewer": "feliperalmeida",
+          "state": "CHANGES_REQUESTED",
+          "submittedAt": "2026-05-28T21:17:39Z"
+        },
+        {
+          "reviewer": "a-lider",
+          "state": "APPROVED",
+          "submittedAt": "2026-05-28T21:21:19Z"
+        },
+        {
+          "reviewer": "feliperalmeida",
+          "state": "APPROVED",
+          "submittedAt": "2026-05-28T21:59:11Z"
+        }
+      ],
+      "reviewCommentCount": 2,
+      "requestChangesCount": 1
+    },
+    {
+      "number": 60549,
+      "author": "gantoine",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/3247106?v=4",
+      "title": "fix(visual-review): Block client-supplied github_check_run_id",
+      "mergedAt": "2026-05-29T01:09:09Z",
+      "createdAt": "2026-05-28T21:01:24Z",
+      "additions": 103,
+      "deletions": 0,
+      "changedFiles": 4,
+      "labels": [],
+      "reviews": [
+        {
+          "reviewer": "Piccirello",
+          "state": "APPROVED",
+          "submittedAt": "2026-05-28T21:09:27Z"
+        }
+      ],
+      "reviewCommentCount": 1,
+      "requestChangesCount": 0
+    },
+    {
+      "number": 60547,
+      "author": "ksvat",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/147102038?v=4",
+      "title": "feat(vision): add scanner templates picker",
+      "mergedAt": "2026-05-28T21:20:53Z",
+      "createdAt": "2026-05-28T20:57:59Z",
+      "additions": 395,
+      "deletions": 15,
+      "changedFiles": 8,
+      "labels": [
+        "stamphog"
+      ],
+      "reviews": [],
+      "reviewCommentCount": 2,
+      "requestChangesCount": 0
+    },
+    {
+      "number": 60539,
+      "author": "Gilbert09",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/1459269?v=4",
+      "title": "feat(data-warehouse): make destination UI warehouse-table aware",
+      "mergedAt": "2026-05-29T12:37:08Z",
+      "createdAt": "2026-05-28T20:43:33Z",
+      "additions": 12,
+      "deletions": 6,
+      "changedFiles": 2,
+      "labels": [],
+      "reviews": [
+        {
+          "reviewer": "danielcarletti",
+          "state": "APPROVED",
+          "submittedAt": "2026-05-29T11:54:39Z"
+        }
+      ],
+      "reviewCommentCount": 0,
+      "requestChangesCount": 0
+    },
+    {
+      "number": 60537,
+      "author": "DanielVisca",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/16750763?v=4",
+      "title": "feat(logs): add Logs tab to person profile + MCP prompt update",
+      "mergedAt": "2026-05-30T00:55:23Z",
+      "createdAt": "2026-05-28T20:40:08Z",
+      "additions": 192,
+      "deletions": 6,
+      "changedFiles": 10,
+      "labels": [],
+      "reviews": [
+        {
+          "reviewer": "charlesvien",
+          "state": "APPROVED",
+          "submittedAt": "2026-05-30T00:55:21Z"
+        }
+      ],
+      "reviewCommentCount": 1,
+      "requestChangesCount": 0
+    },
+    {
+      "number": 60536,
+      "author": "DanielVisca",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/16750763?v=4",
+      "title": "feat(logs): add team-configurable logs distinct_id attribute key",
+      "mergedAt": "2026-05-29T22:23:48Z",
+      "createdAt": "2026-05-28T20:39:27Z",
+      "additions": 229,
+      "deletions": 2,
+      "changedFiles": 7,
+      "labels": [],
+      "reviews": [
+        {
+          "reviewer": "jonmcwest",
+          "state": "APPROVED",
+          "submittedAt": "2026-05-29T13:45:21Z"
+        }
+      ],
+      "reviewCommentCount": 2,
+      "requestChangesCount": 0
+    },
+    {
+      "number": 60535,
+      "author": "rnegron",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/4153103?v=4",
+      "title": "chore(ci): add pytest-durations phase timing to django shards",
+      "mergedAt": "2026-05-29T18:32:20Z",
+      "createdAt": "2026-05-28T20:38:55Z",
+      "additions": 19,
+      "deletions": 1,
+      "changedFiles": 4,
+      "labels": [],
+      "reviews": [
+        {
+          "reviewer": "webjunkie",
+          "state": "COMMENTED",
+          "submittedAt": "2026-05-29T16:00:39Z"
+        },
+        {
+          "reviewer": "gantoine",
+          "state": "APPROVED",
+          "submittedAt": "2026-05-29T18:32:17Z"
+        }
+      ],
+      "reviewCommentCount": 0,
+      "requestChangesCount": 0
+    }
+  ],
+  "issuesByCloser": {}
+}

@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create *)",
+      "Bash(npm install *)",
+      "Bash(New-Item -ItemType File \"C:\\\\dev\\\\posthogAnalysis\\\\posthog-impact\\\\README.md\")",
+      "Bash(Out-Null)",
+      "PowerShell(New-Item -ItemType File \"C:\\\\dev\\\\posthogAnalysis\\\\posthog-impact\\\\README.md\")",
+      "PowerShell(\"created\")"
+    ]
+  }
+}
