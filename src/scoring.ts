@@ -121,5 +121,5 @@ export const computeRankings = (): EngineerMetrics[] => {
     },
   }));
 
-  return results.sort((a, b) => b.scores.composite - a.scores.composite).slice(0, 5);
+  return results.sort((a, b) => b.scores.composite - a.scores.composite);
 };

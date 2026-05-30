@@ -12,6 +12,8 @@ TODO put the calude session log in the repo
 
 TODO: screenshot in readme
 
+TODO: clean up .claude committed files
+
 ## Considerations
 
 ### Why SPACE Framework (Microsoft Research, 2021)
@@ -98,10 +100,13 @@ src/App.tsx               ← Dashboard UI
   - Footer: SPACE framework citation + data freshness timestamp
 
 ### Phase 4 — Polish
-- [ ] Verify single-page fit on a 1366×768 viewport
-- [ ] Confirm no score is shown without an explanation
-- [ ] Add a "How scores are calculated" collapsible section
-- [ ] Test loading time < 10s (should be instant — static JSON)
+- [ ] Verify single-page fit on a 1366×768 viewport (pending browser check)
+- [x] Confirm no score is shown without an explanation (composite always accompanied by 5 dimension bars; expand drawer adds plain-English breakdown per dimension)
+- [x] Add a "How scores are calculated" collapsible section
+- [x] Test loading time < 10s (163KB gzipped, no runtime API calls — instant)
+- [x] Add ability to show analysis beyond the top 5. "Show next 5 engineers" and "show all" 
+- [ ] Check if the data can be updated, if theres new commits not yet part of the data
+- [ ] Add UI tests, add data validation tests
 
 ### Phase 5 — Deploy (deferred to end)
 - [ ] `vercel` CLI deploy from root
@@ -119,4 +124,4 @@ src/App.tsx               ← Dashboard UI
 
 - it would be cool to be able to do this analysis on any arbitrary repo. Could add a list of analyzed repos and the ability at the end of the list to input a new repo to look at
 
-- ability to see impact for engineers beyond top 5. Like a button that allows you to look at the next 5 ad naus
+- never got to phase 6, but exposed some logic to know if the data does need updating

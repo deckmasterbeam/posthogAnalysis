@@ -1,0 +1,26 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`computeRankings > top 5 logins and composite scores match snapshot 1`] = `
+[
+  {
+    "composite": 76,
+    "login": "webjunkie",
+  },
+  {
+    "composite": 73,
+    "login": "gantoine",
+  },
+  {
+    "composite": 71,
+    "login": "joshsny",
+  },
+  {
+    "composite": 64,
+    "login": "Piccirello",
+  },
+  {
+    "composite": 61,
+    "login": "sampennington",
+  },
+]
+`;
