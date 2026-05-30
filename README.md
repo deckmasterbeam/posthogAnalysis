@@ -2,17 +2,17 @@
 
 Start time: 5:44pm 5/29/2026
 
-End time: TODO
+End time: 7:10pm 5/29/2026
 
-Elapse: TODO min
+Elapse: 96 min
+
+(Please excuse the overage, I was tracking based on a timer on my phone and I didn't realize I started it late)
 
 Site: https://posthog-analysis-six.vercel.app/
 
-TODO put the calude session log in the repo
+Session logs exported to `session-logs/` (two files — conversation hit context limit mid-session)
 
-TODO: screenshot in readme
-
-TODO: clean up .claude committed files
+![Dashboard screenshot](https://github.com/deckmasterbeam/posthogAnalysis/raw/main/Screenshot%202026-05-29%20190542.png)
 
 ## Considerations
 
@@ -53,6 +53,8 @@ We chose Option A. The data is a snapshot frozen at fetch time, which is accepta
 ### Data Window
 
 90 days — matches the assignment requirement. Long enough to smooth out vacation/on-call variance while staying recent enough to reflect the current team composition.
+
+I was curious to see the analysis of other engineers outside of the top 5, we analyzed their data too. Added buttons to show more than just the top 5, but default to the top 5.
 
 ---
 
@@ -100,17 +102,17 @@ src/App.tsx               ← Dashboard UI
   - Footer: SPACE framework citation + data freshness timestamp
 
 ### Phase 4 — Polish
-- [ ] Verify single-page fit on a 1366×768 viewport (pending browser check)
+- [x] Verify single-page fit on a 1366×768 viewport (confirmed — no horizontal overflow, light and dark mode both clean)
 - [x] Confirm no score is shown without an explanation (composite always accompanied by 5 dimension bars; expand drawer adds plain-English breakdown per dimension)
 - [x] Add a "How scores are calculated" collapsible section
 - [x] Test loading time < 10s (163KB gzipped, no runtime API calls — instant)
 - [x] Add ability to show analysis beyond the top 5. "Show next 5 engineers" and "show all" 
-- [ ] Check if the data can be updated, if theres new commits not yet part of the data
-- [ ] Add UI tests, add data validation tests
+- [x] Check if the data can be updated, if theres new commits not yet part of the data
+- [x] Add UI tests, add data validation tests
 
 ### Phase 5 — Deploy (deferred to end)
-- [ ] `vercel` CLI deploy from root
-- [ ] Verify public URL works
+- [x] `vercel` CLI deploy from root
+- [x] Verify public URL works — https://posthog-analysis-six.vercel.app/
 
 ### Phase 6 — Live Data Backend (stretch, time permitting)
 - [ ] Add a Vercel serverless function (`api/refresh.ts`) that runs the GitHub fetch on demand and returns fresh data
@@ -122,6 +124,6 @@ src/App.tsx               ← Dashboard UI
 
 ## Future work
 
-- it would be cool to be able to do this analysis on any arbitrary repo. Could add a list of analyzed repos and the ability at the end of the list to input a new repo to look at
+- it would be cool to be able to do this analysis on any arbitrary repo. Could add a list of analyzed repos and the ability at the end of the list to input a new repo link to look at
 
-- never got to phase 6, but exposed some logic to know if the data does need updating
+- never got to phase 6, but exposed some logic to know if the data does need updating. A backend service could be made to try and look at 90 day blocks going into the past and look at blocks of data between today and the most recent analyzed commit
