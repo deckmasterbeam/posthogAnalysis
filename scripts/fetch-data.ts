@@ -18,7 +18,7 @@ if (!token) {
 
 const octokit = new Octokit({ auth: token });
 
-async function paginate<T>(fn: (page: number) => Promise<T[]>): Promise<T[]> {
+const paginate = async <T>(fn: (page: number) => Promise<T[]>): Promise<T[]> => {
   const results: T[] = [];
   let page = 1;
   while (true) {
@@ -28,9 +28,9 @@ async function paginate<T>(fn: (page: number) => Promise<T[]>): Promise<T[]> {
     page++;
   }
   return results;
-}
+};
 
-async function main() {
+const main = async () => {
   console.log(`Fetching data since ${SINCE} ...`);
 
   // 1. Fetch all merged PRs in the window
@@ -47,9 +47,7 @@ async function main() {
       per_page: 100,
       page,
     });
-    const inWindow = data.filter(
-      (pr) => pr.merged_at && pr.merged_at >= SINCE
-    );
+    const inWindow = data.filter((pr) => pr.merged_at && pr.merged_at >= SINCE);
     // Stop once the oldest PR on this page was created before our window
     const oldest = data[data.length - 1];
     if (oldest && oldest.created_at < SINCE) return inWindow;
@@ -134,8 +132,7 @@ async function main() {
   const issuesByCloser: Record<string, number> = {};
   for (const issue of issues) {
     if (issue.assignee && issue.assignee.type !== "Bot") {
-      issuesByCloser[issue.assignee.login] =
-        (issuesByCloser[issue.assignee.login] ?? 0) + 1;
+      issuesByCloser[issue.assignee.login] = (issuesByCloser[issue.assignee.login] ?? 0) + 1;
     }
   }
 

@@ -6,6 +6,12 @@ End time: TODO
 
 Elapse: TODO min
 
+Site: https://posthog-analysis-six.vercel.app/
+
+TODO put the calude session log in the repo
+
+TODO: screenshot in readme
+
 ## Considerations
 
 ### Why SPACE Framework (Microsoft Research, 2021)
@@ -68,29 +74,30 @@ src/App.tsx               ← Dashboard UI
 - [x] Run with a GitHub PAT (read-only `public_repo`), validate output shape
 - [x] Confirm `src/data/github-data.json` is written correctly (77 PRs, 41 authors, 39 reviewers)
 
-### Phase 2 — Scoring Model (est. ~15 min)
-- [ ] Write `src/scoring.ts` — compute per-engineer metrics from raw data
-  - Activity: PRs merged, issues closed, reviews given
-  - Performance: PR merge rate, % merged without re-request-changes cycles
-  - Collaboration: # unique authors whose PRs they reviewed, review comment count
-  - Efficiency: median cycle time (open → merge), median review turnaround
-  - Satisfaction proxy: consistency of activity (not bursty), self-review avoidance
-- [ ] Normalize each sub-metric to 0–100 (min-max scaling across the author pool)
-- [ ] Compute weighted composite score (equal weight per dimension initially)
-- [ ] Export top-5 ranked list with per-dimension breakdown
+### Phase 2 — Scoring Model
+- [x] Write `src/scoring.ts` — compute per-engineer metrics from raw data
+  - Activity: PRs merged + reviews given
+  - Performance: % merged without re-request-changes cycles
+  - Collaboration: # unique authors reviewed + review engagement
+  - Efficiency: median cycle time (open → merge) + median review turnaround
+  - Satisfaction proxy: weekly consistency (fraction of weeks active)
+- [x] Normalize each sub-metric to 0–100 (min-max scaling across the author pool)
+- [x] Compute weighted composite score (equal weight per dimension)
+- [x] Export top-5 ranked list with per-dimension breakdown
 
-### Phase 3 — Dashboard UI (est. ~35 min)
-- [ ] Install `recharts` for charts, `tailwindcss` for styling
-- [ ] Replace `App.tsx` with dashboard layout:
+### Phase 3 — Dashboard UI
+- [x] Install `recharts` for charts, `tailwindcss` for styling
+- [x] Replace `App.tsx` with dashboard layout:
   - Header: title, 90-day window label, methodology link
   - Top 5 engineer cards (ranked), each showing:
     - Rank badge + GitHub avatar + login
     - Composite score + labeled dimension bars (so score is never unexplained)
-    - 3 key highlight stats in plain English ("Reviewed 42 PRs, median review in 4h")
-  - Expandable detail drawer per engineer (more stat breakdown)
+    - Key stats in plain English (PRs merged, reviewed, cycle time, clean merge rate)
+  - Expandable detail drawer per engineer (radar chart + plain-English dimension breakdown)
+  - Collapsible "How scores are calculated" methodology panel
   - Footer: SPACE framework citation + data freshness timestamp
 
-### Phase 4 — Polish (est. ~10 min)
+### Phase 4 — Polish
 - [ ] Verify single-page fit on a 1366×768 viewport
 - [ ] Confirm no score is shown without an explanation
 - [ ] Add a "How scores are calculated" collapsible section
@@ -106,3 +113,10 @@ src/App.tsx               ← Dashboard UI
 - [ ] Store the refreshed data in `localStorage` so repeat visitors don't re-fetch
 - [ ] Add a "Last updated" indicator + manual refresh button to the UI
 - [ ] Requires `GITHUB_TOKEN` set as a Vercel environment variable (never exposed to the client)
+
+
+## Future work
+
+- it would be cool to be able to do this analysis on any arbitrary repo. Could add a list of analyzed repos and the ability at the end of the list to input a new repo to look at
+
+- ability to see impact for engineers beyond top 5. Like a button that allows you to look at the next 5 ad naus

@@ -6,7 +6,8 @@
       "Bash(New-Item -ItemType File \"C:\\\\dev\\\\posthogAnalysis\\\\posthog-impact\\\\README.md\")",
       "Bash(Out-Null)",
       "PowerShell(New-Item -ItemType File \"C:\\\\dev\\\\posthogAnalysis\\\\posthog-impact\\\\README.md\")",
-      "PowerShell(\"created\")"
+      "PowerShell(\"created\")",
+      "PowerShell(cd C:\\\\dev\\\\posthogAnalysis; \\(Get-Content src\\\\App.tsx\\) -replace '@/', 'src/' | Set-Content src\\\\App.tsx; \\(Get-Content src\\\\scoring.ts\\) -replace '@/', 'src/' | Set-Content src\\\\scoring.ts; \"done\")"
     ]
   }
 }
